@@ -16,7 +16,8 @@
     </dependency>
   </dependencies>
   <build>
-    <plugin>
+    <plugins>
+	<plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat6-maven-plugin</artifactId>
 		<version>2.2</version>
@@ -26,7 +27,6 @@
 			<path>/my-app-1</path>
 		</configuration>
 	  </plugin>
-    <plugins>
       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
