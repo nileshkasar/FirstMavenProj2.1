@@ -30,9 +30,7 @@
                 <filtering>true</filtering>
             </resource>
         </webResources>
-       </configuration>
-        <configuration>
-          <artifactItems>
+         <artifactItems>
                 <artifactItem>
                   <groupId>com.github.jsimone</groupId>
                   <artifactId>webapp-runner</artifactId>
